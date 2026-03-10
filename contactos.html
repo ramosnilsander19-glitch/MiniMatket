@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Contacto | Minimarket Espinal</title>
+
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+<h1>Minimarket Espinal</h1>
+
+<nav>
+<a href="index.html">Inicio</a>
+<a href="productos.html">Productos</a>
+<a href="contactos.html">Contacto</a>
+<a href="nosotros.html">Nosotros</a>
+</nav>
+
+</header>
+<section class="contacto">
+
+<h2>Contáctanos</h2>
+<p>
+Escríbenos y te responderemos lo más pronto posible.
+</p>
+
+<div class="info-container">
+
+<div class="info-card">
+<h3>Dirección</h3>
+<p>Esperanza, Valverde, República Dominicana</p>
+</div>
+
+<div class="info-card">
+<h3>Teléfono</h3>
+<p>809-755-3241</p>
+</div>
+
+<div class="info-card">
+<h3>Email</h3>
+<p>minimarketespinal@gmail.com</p>
+</div>
+
+</div>
+
+</section>
+
+
+<section class="formulario">
+
+<h2>Envíanos un mensaje</h2>
+
+<form id="contacto-form" novalidate>
+
+<label for="nombre">Nombre</label>
+<input id="nombre" name="nombre" type="text" placeholder="Tu nombre" >
+<small class="error-text" data-for="nombre"></small>
+
+<label for="correo">Correo</label>
+<input id="correo" name="correo" type="email" placeholder="tucorreo@email.com">
+<small class="error-text" data-for="correo"></small>
+
+<label for="mensaje">Mensaje</label>
+<textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje" ></textarea>
+<small class="error-text" data-for="mensaje"></small>
+
+<button type="submit">Enviar mensaje</button>
+ <script src="app.js"></script>
+</form>
+</section>
+
+<footer class="footer">
+    <div class="footer-container">
+         <h3>Información de Contacto</h3>
+        <p>Barrio la fe, Esperanza, Valverde, República Dominicana</p>
+        <p>Teléfono: 809-755-3241</p>
+        <p>Email: minimarketespinal@gmail.com</p>
+    </div>
+</footer>
+
+
+
+</body>
+</html>
